@@ -1,5 +1,5 @@
 // Code your solution in this file
-function findMatching(drivers, name) {
+const findMatching = (drivers, name) => {
   return drivers.filter(function (n) {return n.toLowerCase() == name.toLowerCase()})
 }    
 
